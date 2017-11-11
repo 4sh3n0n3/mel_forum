@@ -13,31 +13,32 @@
     <meta name="author" content="Roman Bagautdinov">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Abel|Arvo|Crimson+Text|Cuprum|Exo+2|Gloria+Hallelujah|Indie+Flower|Play|Shadows+Into+Light|Sumana" rel="stylesheet">
 
     <title><decorator:title /></title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
   </head>
-  <body>
-    <header>
-          <nav class="navbar navbar-expand-lg ps-13 header navbar-dark ps13-text-shadow fixed-top bg-dark" style="background-image: url('${pageContext.request.contextPath}/assets/img/head.png');">
-                    <a class="navbar-brand" href="#">
+  <body style="background-image: url('${pageContext.request.contextPath}/assets/img/body.png');">
+    <header style="padding-bottom: 58px;">
+          <nav class="navbar navbar-expand-lg navbar-dark ps13-text-shadow fixed-top bg-dark ps13-shadow" style="background-image: url('${pageContext.request.contextPath}/assets/img/head.png');">
+
+                    <a class="navbar-brand" style="margin-right: auto;" href="#">
                         <img src="${pageContext.request.contextPath}/assets/img/ps13_logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Polar Station 13 Forum
                     </a>
-
                     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
 
-                    <div class="collapse navbar-collapse col-12" id="navbarsExampleDefault">
-                        <div class="row justify-content-center">
+                    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                        <div class="row justify-content-center" style="margin-left: auto; margin-right: 0.2em;">
                             <div class="col">
                               <form class="form-inline mt-2 mt-md-0">
                                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                               </form>
                             </div>
-                            <div class="col">
-                              <button class="btn btn-primary navbar-btn my-2 my-sm-0" type="button">Log in</button>
+                              <button class="btn btn-primary ps13-text-shadow ps13-button navbar-btn my-2 my-sm-0" type="button">Log in</button>
+                              <button class="btn btn-primary ps13-text-shadow ps13-button navbar-btn my-2 my-sm-0" type="button">Register</button>
                             </div>
                         </div>
                     </div>

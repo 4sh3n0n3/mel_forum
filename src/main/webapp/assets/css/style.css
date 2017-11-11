@@ -1,6 +1,54 @@
 .ps13-text-shadow {
     text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
+
 .ps13-header {
-    padding-top: 50px;
+    padding-bottom: 58px;
+}
+
+.ps13-shadow {
+  -webkit-box-shadow: 0 2px 3px #00b3ff;
+  -moz-box-shadow: 0 2px 3px #00b3ff;
+  box-shadow: 0 2px 3px #00b3ff;
+}
+
+.ps13-button {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: 'Crimson Text', serif;
+    background: linear-gradient(to top right,#35f9de 20%,#0baffd 70%);
+}
+
+.ps13-forum-block {
+  -webkit-box-shadow: 0 2px 3px #00b3ff;
+  -moz-box-shadow: 0 2px 3px #00b3ff;
+  box-shadow: 0 2px 3px #00b3ff;
+  padding-bottom: 10px;
+  background-color: #cbffff !important;
+  border-radius: .5rem .5rem .5rem .5rem;
+  margin: 10px;
+}
+
+.ps13-box-shadow {
+	box-shadow: 0 0 0, 0 0 2px blue, 0 0 5px darkblue;
+}
+
+.ps13-forum-block .head {
+    margin: 0;
+    font-family: 'Indie Flower', cursive;
+    padding-top: 8px;
+    height: 40px;
+    color: snow;
+    font-size: 1.25rem;
+    text-align: center;
+    border-radius: .5rem .5rem 0 0;
+    background: -moz-linear-gradient(top,#addde4 0%,#6f8bb5 100%);
+    background: -webkit-gradient(left top,left bottom,color-stop(0%,#addde4),color-stop(100%,#6f8bb5));
+    background: -webkit-linear-gradient(top,#addde4 0%,#6f8bb5 100%);
+    background: -o-linear-gradient(top,#addde4 0%,#6f8bb5 100%);
+    background: -ms-linear-gradient(top,#addde4 0%,#6f8bb5 100%);
+    background: linear-gradient(to bottom,#addde4 0%,#6f8bb5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#addde4',endColorstr='#6f8bb5',GradientType=0);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.3);
+    position: relative;
 }
