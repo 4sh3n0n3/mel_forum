@@ -1,0 +1,15 @@
+com\ss13\pojo\Reward.class
+com\ss13\dao\ProfileDAO.class
+com\ss13\dao\PostgresUserDAO.class
+com\ss13\dao\PostDAO.class
+com\ss13\dao\PostgresUserDAO$1.class
+com\ss13\dao\PostgresRewardsDAO.class
+com\ss13\dao\PostgresDAO.class
+com\ss13\dao\DAOFactory.class
+com\ss13\dao\PostgresProfileDAO.class
+com\ss13\pojo\Profile.class
+com\ss13\dao\UserDAO.class
+com\ss13\pojo\UserRoles.class
+com\ss13\dao\PostgresDAOFactory.class
+com\ss13\dao\RewardsDAO.class
+com\ss13\pojo\User.class
