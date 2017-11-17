@@ -4,6 +4,7 @@
 <%@ page contentType="text/html; charset=UTF-8"%>
 <%@ taglib uri="/WEB-INF/logout.tld" prefix="logout"%>
 <%@ page isELIgnored="false" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <html lang="en">
   <head>
@@ -23,7 +24,7 @@
     <header style="padding-bottom: 58px;">
           <nav class="navbar navbar-expand-lg navbar-dark ps13-text-shadow fixed-top bg-dark ps13-shadow" style="background-image: url('${pageContext.request.contextPath}/assets/img/head.png');">
 
-                    <a class="navbar-brand" style="margin-right: auto;" href="#">
+                    <a class="navbar-brand" style="margin-right: auto;" href="/PS13_Forum">
                         <img src="${pageContext.request.contextPath}/assets/img/ps13_logo.png" width="30" height="30" class="d-inline-block align-top" alt=""> Polar Station 13 Forum
                     </a>
                     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,9 +38,12 @@
                                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                               </form>
                             </div>
-                              <button class="btn btn-primary ps13-text-shadow ps13-button navbar-btn my-2 my-sm-0" type="button">Log in</button>
-                              <button class="btn btn-primary ps13-text-shadow ps13-button navbar-btn my-2 my-sm-0" type="button">Register</button>
-                            </div>
+                            <form action="<c:url value="/login"/>" method="GET">
+                              <input class="btn btn-primary ps13-text-shadow ps13-button navbar-btn my-2 my-sm-0" type="submit" value="Log in"/>
+                            </form>
+                            <form action="<c:url value="/register"/>" method="GET">
+                              <input class="btn btn-primary ps13-text-shadow ps13-button navbar-btn my-2 my-sm-0" type="submit" value="Register"/>
+                            </form>
                         </div>
                     </div>
              </div>
