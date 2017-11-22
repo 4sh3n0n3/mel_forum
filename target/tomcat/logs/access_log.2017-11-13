@@ -1,8 +1,0 @@
-0:0:0:0:0:0:0:1 - - [13/Nov/2017:17:05:36 +0300] "GET /PS13_Forum HTTP/1.1" 302 - http-bio-8080-exec-1 0
-0:0:0:0:0:0:0:1 - - [13/Nov/2017:17:05:37 +0300] "GET /PS13_Forum/ HTTP/1.1" 200 4196 http-bio-8080-exec-7 1201
-0:0:0:0:0:0:0:1 - - [13/Nov/2017:17:05:37 +0300] "GET /PS13_Forum/assets/css/style.css HTTP/1.1" 200 1675 http-bio-8080-exec-8 4
-0:0:0:0:0:0:0:1 - - [13/Nov/2017:17:05:38 +0300] "GET /PS13_Forum/assets/img/ps13_logo.png HTTP/1.1" 200 112731 http-bio-8080-exec-9 3
-0:0:0:0:0:0:0:1 - - [13/Nov/2017:17:05:38 +0300] "GET /PS13_Forum/assets/img/head.png HTTP/1.1" 200 906470 http-bio-8080-exec-2 11
-0:0:0:0:0:0:0:1 - - [13/Nov/2017:17:05:38 +0300] "GET /PS13_Forum/assets/img/body.png HTTP/1.1" 200 685953 http-bio-8080-exec-10 23
-0:0:0:0:0:0:0:1 - - [13/Nov/2017:17:05:39 +0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-2 0
-0:0:0:0:0:0:0:1 - - [13/Nov/2017:17:07:50 +0300] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-9 0

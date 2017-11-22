@@ -5,7 +5,7 @@
     <h2 class="head ps13-text-shadow">
             Вход на форум
     </h2>
-    <form action="<c:url value="/try_login"/>" method="POST" id="login_form" onSubmit="return  try_submit();">
+    <form action="<c:url value="/try_login"/>" method="POST" id="login_form">
         <br>
             <input class="form-control mr-sm-2" type="text" id="log_username" name="log_username" placeholder="Введите ваш логин" />
         </br>

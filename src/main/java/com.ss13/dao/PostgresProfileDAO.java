@@ -19,6 +19,7 @@ public class PostgresProfileDAO extends PostgresDAO implements ProfileDAO {
             stmt = conn.prepareStatement(sql);
             stmt.setInt(1, key);
             ResultSet rs = stmt.executeQuery();
+            rs.next();
             profile.setId(rs.getInt("id"));
             profile.setAvatar(rs.getString("avatar"));
             profile.setFirstName(rs.getString("name"));
@@ -49,6 +50,7 @@ public class PostgresProfileDAO extends PostgresDAO implements ProfileDAO {
             stmt = conn.prepareStatement(sql);
             stmt.setInt(1, user.getId());
             ResultSet rs = stmt.executeQuery();
+            rs.next();
             profile.setId(rs.getInt("id"));
             profile.setAvatar(rs.getString("avatar"));
             profile.setFirstName(rs.getString("name"));

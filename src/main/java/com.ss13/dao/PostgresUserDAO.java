@@ -11,14 +11,20 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class PostgresUserDAO extends PostgresDAO implements UserDAO {
+
+    /**
+     * @param user Ссылка на профиль, роль и награды пользователя создаётся в момент записи
+     *             пользователя в БД. (Хранимые процедуры СУБД, триггеры)
+     */
     public void create(User user) {
         PreparedStatement stmt = null;
         Connection conn = getConnection();
         try {
             stmt = conn.prepareStatement("INSERT INTO users "
-                    + "(username, password) VALUES(?, ?)");
+                    + "(username, password, email) VALUES(?, ?, ?)");
             stmt.setString(1, user.getUsername());
             stmt.setString(2, user.getPasswordHash());
+            stmt.setString(3, user.getEmail());
 
             stmt.execute();
         } catch (SQLException e) {
@@ -35,14 +41,15 @@ public class PostgresUserDAO extends PostgresDAO implements UserDAO {
 
     public User read(int key) {
         String sql = "SELECT * FROM users WHERE id = ?";
-        User user = new User();
+        User user = null;
         PreparedStatement stmt = null;
         Connection conn = getConnection();
         try {
             stmt = conn.prepareStatement(sql);
             stmt.setInt(1, key);
             ResultSet rs = stmt.executeQuery();
-            UserRoles role = UserRoles.valueOf(rs.getString("role"));
+            rs.next();
+            UserRoles role = (new PostgresRolesDAO()).getUserrole(rs.getString("username"));
             switch (role) {
                 case USER:
                     user.setRole(UserRoles.USER);
@@ -57,6 +64,7 @@ public class PostgresUserDAO extends PostgresDAO implements UserDAO {
             user.setId(rs.getInt("id"));
             user.setPassword(rs.getString("password"), false);
             user.setUsername(rs.getString("username"));
+            user.setEmail(rs.getString("email"));
             user.setProfile((new PostgresProfileDAO()).read(rs.getInt("profile")));
         } catch (SQLException e) {
             e.printStackTrace();
@@ -74,14 +82,14 @@ public class PostgresUserDAO extends PostgresDAO implements UserDAO {
     }
 
     public void update(User user) {
-        String sql = "UPDATE users SET username = ?, password = ?, role = ? WHERE id = ?";
+        String sql = "UPDATE users SET username = ?, password = ?, email = ? WHERE id = ?";
         PreparedStatement stmt = null;
         Connection conn = getConnection();
         try {
             stmt = conn.prepareStatement(sql);
             stmt.setString(1, user.getUsername());
             stmt.setString(2, user.getPasswordHash());
-            stmt.setString(3, user.getRole().toString());
+            stmt.setString(3, user.getEmail());
             stmt.setInt(4, user.getId());
 
             stmt.execute();
@@ -149,7 +157,8 @@ public class PostgresUserDAO extends PostgresDAO implements UserDAO {
             stmt.setString(1, username);
             stmt.setString(2, password);
             ResultSet rs = stmt.executeQuery();
-            UserRoles role = UserRoles.valueOf(rs.getString("role"));
+            rs.next();
+            UserRoles role = (new PostgresRolesDAO()).getUserrole(username);
             switch (role) {
                 case USER:
                     user.setRole(UserRoles.USER);
@@ -164,6 +173,7 @@ public class PostgresUserDAO extends PostgresDAO implements UserDAO {
             user.setId(rs.getInt("id"));
             user.setPassword(rs.getString("password"), false);
             user.setUsername(rs.getString("username"));
+            user.setEmail(rs.getString("email"));
             user.setProfile((new PostgresProfileDAO()).read(rs.getInt("profile")));
         } catch (SQLException e) {
             e.printStackTrace();
@@ -189,7 +199,8 @@ public class PostgresUserDAO extends PostgresDAO implements UserDAO {
             stmt = conn.prepareStatement(sql);
             stmt.setString(1, username);
             ResultSet rs = stmt.executeQuery();
-            UserRoles role = UserRoles.valueOf(rs.getString("role"));
+            rs.next();
+            UserRoles role = (new PostgresRolesDAO()).getUserrole(username);
             switch (role) {
                 case USER:
                     user.setRole(UserRoles.USER);
@@ -204,6 +215,7 @@ public class PostgresUserDAO extends PostgresDAO implements UserDAO {
             user.setId(rs.getInt("id"));
             user.setPassword(rs.getString("password"), false);
             user.setUsername(rs.getString("username"));
+            user.setEmail(rs.getString("email"));
             user.setProfile((new PostgresProfileDAO()).read(rs.getInt("profile")));
         } catch (SQLException e) {
             e.printStackTrace();

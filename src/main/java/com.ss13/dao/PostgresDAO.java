@@ -18,4 +18,16 @@ public class PostgresDAO extends DAOFactory{
     public UserDAO getUserDAO() {
         return new PostgresUserDAO();
     }
+
+    public ProfileDAO getProfileDAO() {
+        return new PostgresProfileDAO();
+    }
+
+    public RewardsDAO getRewardsDAO() {
+        return new PostgresRewardsDAO();
+    }
+
+    public RolesDAO getRolesDAO() {
+        return new PostgresRolesDAO();
+    }
 }

@@ -43,18 +43,78 @@
     </dependency>
 
     <dependency>
-      <groupId>org.postgresql</groupId>
-      <artifactId>postgresql</artifactId>
-      <version>9.4-1200-jdbc41</version>
-    </dependency>
-
-    <dependency>
       <groupId>opensymphony</groupId>
       <artifactId>sitemesh</artifactId>
       <version>2.4.2</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.1.4</version>
+    </dependency>
+
   </dependencies>
+
+  <profiles>
+    <profile>
+      <id>dev</id>
+      <properties>
+        <build.profile.id>test</build.profile.id>
+      </properties>
+
+      <build>
+        <resources>
+          <resource>
+            <directory>src/main/resources/</directory>
+          </resource>
+        </resources>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.3</version>
+            <configuration>
+              <source>1.7</source>
+              <target>1.7</target>
+            </configuration>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.tomcat.maven</groupId>
+            <artifactId>tomcat7-maven-plugin</artifactId>
+            <version>2.2</version>
+            <configuration>
+              <systemProperties>
+                <java.security.auth.login.config>${project.build.directory}/itis408/META-INF/jaas.config
+                </java.security.auth.login.config>
+              </systemProperties>
+              <!--<path>/tourismapp</path>-->
+              <server>tomcat-development-server</server>
+              <port>8090</port>
+              <uriEncoding>UTF-8</uriEncoding>
+              <connectorHttpProtocol>HTTP/1.1</connectorHttpProtocol>
+              <address>0.0.0.0</address>
+              <extraResources>
+                <extraResource>
+                  <directory>/resources</directory>
+                  <includes>
+                    <include>log4j.propreties</include>
+                  </includes>
+                </extraResource>
+              </extraResources>
+            </configuration>
+            <dependencies>
+              <dependency>
+                <groupId>org.postgresql</groupId>
+                <artifactId>postgresql</artifactId>
+                <version>42.1.4</version>
+              </dependency>
+            </dependencies>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
 
   <build>
     <plugins>

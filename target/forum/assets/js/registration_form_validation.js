@@ -48,10 +48,3 @@ $("#registration_form").validate({
     }
 });
 
-function try_submit() {
-    if ($("#registration_form").valid) {
-        return true;
-    };
-    return false;
-};
-

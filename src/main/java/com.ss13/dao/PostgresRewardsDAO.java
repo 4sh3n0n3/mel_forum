@@ -39,6 +39,7 @@ public class PostgresRewardsDAO extends PostgresDAO implements RewardsDAO {
             stmt = conn.prepareStatement(sql);
             stmt.setInt(1, key);
             ResultSet rs = stmt.executeQuery();
+            rs.next();
             reward.setId(rs.getInt("id"));
             reward.setName(rs.getString("name"));
 

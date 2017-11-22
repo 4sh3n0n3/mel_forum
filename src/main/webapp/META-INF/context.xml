@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context path="/PS13_Forum" useHttpOnly="true">
+
     <Resource
         driverClassName="org.postgresql.Driver"
         maxActive="100"
         maxIdle="200"
         maxWait="5000"
         name="jdbc/ps_13_forum_database"
-        username="ps13"
+        username="ps_13"
         password="wanrltw2003"
         type="javax.sql.DataSource"
-        url="jdbc:postgresql://localhost:5432/ps13_database"
+        url="jdbc:postgresql://localhost:5432/ps_13_forum_database"
         validationQuery="SELECT 1">
     </Resource>
+
+
+    <Realm className="org.apache.catalina.realm.JDBCRealm"
+           driverName="org.postgresql.Driver" digest="MD5"
+           connectionURL="jdbc:postgresql://localhost:5432/ps_13_forum_database"
+           connectionName="ps_13"
+           connectionPassword="wanrltw2003"
+           userTable="users" userNameCol="username" userCredCol="password"
+           userRoleTable="userroles" roleNameCol="role" />
+
 </Context>

@@ -16,7 +16,7 @@ public abstract class DAOFactory {
         switch (whichFactory) {
             case POSTGRES:
                 return new PostgresDAOFactory();
-            default           :
+            default:
                 return null;
         }
     }
@@ -25,4 +25,7 @@ public abstract class DAOFactory {
      */
     public abstract Connection getConnection() throws SQLException;
     public abstract UserDAO getUserDAO();
+    public abstract ProfileDAO getProfileDAO();
+    public abstract RewardsDAO getRewardsDAO();
+    public abstract RolesDAO getRolesDAO();
 }

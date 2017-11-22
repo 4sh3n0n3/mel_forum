@@ -2,17 +2,405 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98cd7dc9-2098-4fc8-afdc-dd6dfc8dd1d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jars/postgresql-42.1.4.jar" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_dblock_waffle_waffle_jna_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_platform_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1200_jdbc41.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/lib/guava-18.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/lib/jna-4.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/lib/jna-platform-4.1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/lib/postgresql-9.4-1200-jdbc41.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/lib/slf4j-api-1.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/lib/slf4j-simple-1.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/lib/waffle-jna-1.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/forum/assets/js/validation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/forum/error400.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/forum/error404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1005222949835647818tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1159420031338478400tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1202066080506559713tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1234609351093890097tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1235455715931493904tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1238235662555268940tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1294886678690802766tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1300728594656532914tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire137054024084790617tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1383244267414892768tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1484780725010788454tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1611704565749463403tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1617042030416258311tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1811849742376128417tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1825561664138922534tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1831070197110407356tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1848846657005093080tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1871491378348581919tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1884022424801893320tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1898915096662331106tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1959045146212926897tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1970546361297806411tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire1983858892192940039tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2029806528999412298tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2031270041606574047tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2096452196117735092tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2101051840001585566tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2148073444459973305tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2165655344506358560tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2217724506963644242tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2252622622762070474tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2277666613415228262tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2406343361588805197tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2406567834226594734tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2420264660154179210tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2476397682001940642tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2529917807930476977tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2549251448645203798tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2612917600374413033tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2669647408436503769tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2689349478897429011tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire269442127457009565tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2730602257848835215tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2735479099585354760tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2738699021428639512tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2853581390926237475tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire287865135897043563tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2919668995900984910tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire2998216201436507317tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3058367979037797591tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire308316705129652202tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3090623250645721376tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3108099959549615464tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3118625750601404761tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire316337269271778057tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3252350682690492623tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire326556558704791420tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3289594651933849256tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3304222392327596551tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3345063748396534813tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3474257120410627896tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire352430392791715299tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3533135157619097510tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3550464720832144145tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3567085528019581526tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3584876870539045974tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3684752478948834808tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3688336406461601454tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3714027015205971434tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire37841917766199668tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3788792898418464630tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3874175354757837817tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3903398566635687165tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire3936952515151478068tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire401885751226136578tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire402116797866192950tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4030314547160497763tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4032640371751174468tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4157149603228444329tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4195799750420215583tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4196137078292449899tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4273564871009218754tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4342412947321458114tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4390847160283237049tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire444291624012088181tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4463561844430163563tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4509079774099031911tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire451450140420159225tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4606810233918480847tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4668053482875315755tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4680755171284269264tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4692778801952031245tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4723128056919084717tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4754083441591023739tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4834655778752485626tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4893964430332835019tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire489624671511810323tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4930103176186029933tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4940480344095464720tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4958332305929140584tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4968988973124736343tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire4982526266009282383tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5005891649337015958tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5036747478578353956tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5129460807749880516tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5153622765043256178tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5170972158000985926tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5238163755075876413tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5257812223241084201tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5278968695190528457tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5323612219580703751tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5349717202125276990tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5369764652441836458tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5420371616850575086tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5432833712198330485tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5454020984432151052tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5460393550309077257tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5563090632116814136tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5625094342349202000tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5625362576904115427tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5666945391109728860tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5716520885046519902tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5720761287619226069tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire573267140656135006tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5822641391075559191tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5875445252765212886tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5897222136780822801tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire5962196517817620789tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6011229254186420465tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6022670569651819292tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire613454258148124066tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6168136411513550923tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6323358044262811205tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6335863826046374854tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6408439035777947689tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6462026383123798540tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6489125641307583364tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6509587420342925843tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire654030624926270559tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6564019318362897854tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6580130838337694612tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6608836054204041148tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6623647314390915978tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6701409288447418902tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6705744045108906611tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6766270673269404767tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6789161660432557443tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6789784392153516618tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6953024540592137525tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire6966758382803535581tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7030435477590959106tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7038383029485216351tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7082124176430010313tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire720137460019227893tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7228683934592161208tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7272319117189022897tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7300480105904034559tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7355390131684508990tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7377993399693323466tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7385572733247711294tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7386103988121116711tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7460073750812032017tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7525272543767033005tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7603807792253442723tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7620756938486583762tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7749198335774983094tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7749658967842708795tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7799600531135465664tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire784229069067627369tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7846683056365193212tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7867329180861346194tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire7936203181582148780tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8007226040127470392tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8125062951898391570tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8153256429167095736tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8241859884859783582tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8342129611250746577tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8389465108391556215tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8389483109051724862tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8409508019412661214tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8421225761518391992tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8427999852480719525tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8456381296699245892tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8465421319985761894tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8472356426261624945tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8620531302214111985tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8641459471281231147tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8665137435363808591tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8723066882742686228tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8744610918272710778tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire8833168947292842352tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire90111318711373009tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire9019013913140894211tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire9143170671741267836tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire941889748791428680tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefire964886360163351345tmp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter1033783211376981536.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter1095855386159462283.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter1212484555538033607.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter1388913939469014031.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter1649453143531940859.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter1761438055902580015.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter193287502236586723.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2004811126954377896.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2064995862066759817.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2117894665615105158.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2210698106625884785.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2322425211451820102.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2456162235884337835.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2491159166034020526.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter2501020588017591591.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter3084931803767329093.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter3317740820790069953.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter3352407659303589959.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter3358342113837671917.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter3495867172368762769.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter3591560891153811741.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter3619457477764377404.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter38876832403446272.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter3964212708422170039.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter397143320591364855.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter3974824592004792474.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter3978517189224370998.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4089684232368485457.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4100682828609307166.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4144766792030794987.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4154658867133195607.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4242122435511063937.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4250837283453269116.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter447168769498826661.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter4825238355802730796.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter5203267761776522020.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter5412281774601328879.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter5506527791010614652.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter5633650012186820602.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter5957059347420602949.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter5974832619004075768.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6039358441296374212.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6064262343353638356.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6115022859700469442.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6125947013555407409.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6182950628591463324.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6417096679907319312.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6575267157712750393.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6679052933608302874.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6747395475864576351.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6822772787160615634.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter691811024827102733.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter696433816714481521.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6974059517467378641.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter6984832149648176166.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7019360810668538255.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7073066543888722475.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7170416217702292645.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7175017787615953568.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7186422875204456872.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7196460303495610034.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7280214938551342888.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7354688749557362150.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7367737310677790221.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7440561865324298222.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7477588127204865036.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7509540809793815503.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7520830426807484174.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7533878774678946120.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7543056348451524516.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7548088814468213966.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7578718515807777555.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter76599034315549403.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7659951013792966644.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7663221908291510726.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7676473067933845230.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7796719592902925729.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7828672095700463440.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7838859308262737193.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7902336670439834011.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8077419459100809850.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8088948336937329539.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter819631950902794467.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8199171543895296868.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8237173012016371017.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8260851844253928168.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8394221984329949003.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8453571629789505068.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8635457426496410772.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8800764292870282732.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8912770758282792503.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8944401444038497429.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8962592646027172750.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8963338940031547483.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter8988879904522104249.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter904797707173388472.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter9065831094982765983.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire/surefirebooter9129856792611805337.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-10-31" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-11-01" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-11-07" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-11-08" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-11-10" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-11-11" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-11-13" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-11-14" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-11-15" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-11-17" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/PS13_Forum/org/apache/jsp/error404_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/PS13_Forum/org/apache/jsp/error404_jsp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/PS13_Forum/org/apache/jsp/login_jsp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/PS13_Forum/org/apache/jsp/login_jsp.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/dao/DAOFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/dao/DAOFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/dao/PostDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/dao/PostDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/dao/PostgresDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/dao/PostgresDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/dao/PostgresDAOFactory.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/dao/PostgresDAOFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/dao/PostgresProfileDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/dao/PostgresProfileDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/dao/PostgresRewardsDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/dao/PostgresRewardsDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/dao/PostgresUserDAO$1.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/dao/PostgresUserDAO$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/dao/PostgresUserDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/dao/PostgresUserDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/dao/ProfileDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/dao/ProfileDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/dao/RewardsDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/dao/RewardsDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/dao/UserDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/dao/UserDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/filters/LogoutTag.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/filters/LogoutTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/pojo/Profile.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/pojo/Profile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/pojo/Reward.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/pojo/Reward.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/pojo/User.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/pojo/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/pojo/UserRoles.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/pojo/UserRoles.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/servlets/LoginRedirectServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/servlets/LoginRedirectServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/servlets/LoginServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/servlets/LoginServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/servlets/RegisterRedirectServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/servlets/RegisterRedirectServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ss13/servlets/RegistrationServlet.class" afterPath="$PROJECT_DIR$/target/classes/com/ss13/servlets/RegistrationServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum.war" afterPath="$PROJECT_DIR$/target/forum.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/PS13_Forum/org/apache/jsp/decorators/decorator_jsp.class" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/PS13_Forum/org/apache/jsp/decorators/decorator_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/DaoFactory.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/DaoFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/PostDAO.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/PostDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/PostgresDAO.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/PostgresDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/PostgresDaoFactory.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/PostgresDaoFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/PostgresProfileDAO.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/PostgresProfileDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/PostgresRewardsDAO.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/PostgresRewardsDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/PostgresUserDAO$1.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/PostgresUserDAO$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/PostgresUserDAO.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/PostgresUserDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/ProfileDAO.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/ProfileDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/RewardsDAO.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/RewardsDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/UserDAO.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/dao/UserDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/filters/LogoutTag.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/filters/LogoutTag.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/pojo/Profile.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/pojo/Profile.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/pojo/Reward.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/pojo/Reward.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/pojo/User.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/pojo/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/pojo/UserRoles.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/pojo/UserRoles.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/servlets/LoginRedirectServlet.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/servlets/LoginRedirectServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/servlets/LoginServlet.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/servlets/LoginServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/servlets/RegisterRedirectServlet.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/servlets/RegisterRedirectServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/servlets/RegistrationServlet.class" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/com/ss13/servlets/RegistrationServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/PS13_Forum/org/apache/jsp/register_jsp.class" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/PS13_Forum/org/apache/jsp/register_jsp.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/decorators/decorator.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/decorators/decorator.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/decorators/decorator.jsp" afterPath="$PROJECT_DIR$/target/forum/decorators/decorator.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PS13_Forum.iml" afterPath="$PROJECT_DIR$/PS13_Forum.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.ss13/dao/DAOFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com.ss13/dao/DAOFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresDAOFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresDAOFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresProfileDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresProfileDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresRewardsDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresRewardsDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresUserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresUserDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.ss13/pojo/User.java" afterPath="$PROJECT_DIR$/src/main/java/com.ss13/pojo/User.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com.ss13/servlets/RegistrationServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com.ss13/servlets/RegistrationServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/login_form_validation.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/login_form_validation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/assets/js/registration_form_validation.js" afterPath="$PROJECT_DIR$/src/main/webapp/assets/js/registration_form_validation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/META-INF/context.xml" afterPath="$PROJECT_DIR$/target/forum/META-INF/context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/WEB-INF/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/forum/WEB-INF/classes/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/assets/js/login_form_validation.js" afterPath="$PROJECT_DIR$/target/forum/assets/js/login_form_validation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/assets/js/registration_form_validation.js" afterPath="$PROJECT_DIR$/target/forum/assets/js/registration_form_validation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/login.jsp" afterPath="$PROJECT_DIR$/target/forum/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/forum/register.jsp" afterPath="$PROJECT_DIR$/target/forum/register.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-11-17" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2017-11-17" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/PS13_Forum/org/apache/jsp/decorators/decorator_jsp.java" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/PS13_Forum/org/apache/jsp/decorators/decorator_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/PS13_Forum/org/apache/jsp/main_jsp.java" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/PS13_Forum/org/apache/jsp/main_jsp.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/PS13_Forum/org/apache/jsp/register_jsp.java" afterPath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/PS13_Forum/org/apache/jsp/register_jsp.java" />
     </list>
     <ignored path="PS13_Forum.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,95 +421,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="21" column="69" lean-forward="false" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/servlets/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registration_form_validation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/registration_form_validation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login_form_validation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/login_form_validation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="decorator.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/decorator.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterRedirectServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/servlets/RegisterRedirectServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="13" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RegistrationServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/servlets/RegistrationServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="-23">
+              <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,14 +433,96 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginRedirectServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/servlets/LoginRedirectServlet.java">
+      <file leaf-file-name="registration_form_validation.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/registration_form_validation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="276">
+              <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostgresRolesDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresRolesDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostgresUserDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresUserDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/pojo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostgresRewardsDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresRewardsDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostgresProfileDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresProfileDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="95" column="38" lean-forward="false" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostgresDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -166,9 +552,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/sitemesh.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/error400.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/error404.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/DaoFactory.java" />
@@ -176,37 +559,54 @@
         <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/UserProfileDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostDAO.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/main.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/DAOFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresDAOFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.ss13/pojo/Rewards.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/ProfileDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.ss13/pojo/UserRoles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.ss13/pojo/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.ss13/pojo/Profile.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/RewardsDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.ss13/pojo/Reward.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresProfileDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresUserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresRewardsDAO.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com.ss13/servlets/LoginRedirectServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/decorators/decorator.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com.ss13/servlets/RegisterRedirectServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.ss13/servlets/RegistrationServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.ss13/servlets/LoginServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/js/validation.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com.ss13/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/RolesDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/.classpath" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/js/login_form_validation.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/assets/js/registration_form_validation.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/DAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresDAOFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.ss13/servlets/RegistrationServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresRolesDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresUserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresRewardsDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresProfileDAO.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="enabledProfiles">
+      <list>
+        <option value="dev" />
       </list>
     </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Profiles" type="6783ec58:MavenProjectsStructure$ProfilesNode" />
+        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="forum Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -231,7 +631,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1386" />
@@ -252,8 +652,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -261,6 +659,17 @@
             <path>
               <item name="mel_forum" type="b2602c69:ProjectViewProjectNode" />
               <item name="mel_forum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mel_forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mel_forum" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mel_forum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mel_forum" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="jars" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mel_forum" type="b2602c69:ProjectViewProjectNode" />
@@ -304,25 +713,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com.ss13" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mel_forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mel_forum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.ss13" type="462c0819:PsiDirectoryNode" />
               <item name="pojo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mel_forum" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mel_forum" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.ss13" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mel_forum" type="b2602c69:ProjectViewProjectNode" />
@@ -401,21 +792,29 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/calculator_ver4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.30645162" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\mel_forum" />
+      <recent name="C:\Users\User\mel_forum\src\main\webapp\WEB-INF\lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\mel_forum\lib\jars" />
       <recent name="C:\Users\User\mel_forum\src\main\webapp\assets\js" />
       <recent name="C:\Users\User\mel_forum\src\main\webapp\assets\css" />
       <recent name="C:\Users\DoctorZlo\PS13_Forum\src\main\webapp\decorators" />
@@ -710,7 +1109,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -719,19 +1118,19 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17642753" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2035139" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28526148" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25356576" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21156661" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20937042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -768,35 +1167,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="53" lean-forward="false" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1700">
-          <caret line="100" column="10" lean-forward="false" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -895,34 +1265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sitemesh.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/filters/LogoutTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/decorators.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -930,71 +1272,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="39" lean-forward="false" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/error404.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="31" lean-forward="false" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresDAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/DAOFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="41" lean-forward="false" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#388#389#0" expanded="false" />
-            <element signature="e#432#433#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,17 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/pojo/UserRoles.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,9 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1030,39 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresProfileDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="58" column="97" lean-forward="false" selection-start-line="58" selection-start-column="97" selection-end-line="58" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresUserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3502">
-          <caret line="206" column="83" lean-forward="false" selection-start-line="206" selection-start-column="83" selection-end-line="206" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7261#7262#0" expanded="true" />
-            <element signature="e#7288#7289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1070,38 +1304,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#372#380#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresRewardsDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3806#3814#0" expanded="false" />
-            <element signature="e#4694#4702#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="30" column="15" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,87 +1311,232 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="680">
           <caret line="40" column="16" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/servlets/RegisterRedirectServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="85">
           <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/decorators/decorator.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
+        <state relative-caret-position="221">
           <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/pojo/UserRoles.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/RolesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="94" lean-forward="false" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/filters/LogoutTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/servlets/RegistrationServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/sitemesh.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="21" column="69" lean-forward="false" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+        <state relative-caret-position="221">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/login_form_validation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-          <folding />
+        <state relative-caret-position="272">
+          <caret line="22" column="3" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/registration_form_validation.js">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="119">
+          <caret line="7" column="76" lean-forward="false" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="92" lean-forward="false" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="92" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/servlets/LoginServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="102">
           <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="94" column="26" lean-forward="false" selection-start-line="94" selection-start-column="26" selection-end-line="94" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_112/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="441" column="0" lean-forward="false" selection-start-line="441" selection-start-column="0" selection-end-line="441" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresDAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="62" lean-forward="false" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="59" lean-forward="false" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/DAOFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresRolesDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresRewardsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="41" column="22" lean-forward="false" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresProfileDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="95" column="38" lean-forward="false" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/dao/PostgresUserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.ss13/servlets/RegistrationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="35" column="38" lean-forward="false" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/assets/js/registration_form_validation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1225,7 +1572,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30645162" />
               </list>
             </option>
           </splitter-proportions>
@@ -1237,7 +1584,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30645162" />
               </list>
             </option>
           </splitter-proportions>
@@ -1249,8 +1596,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.30645162" />
               </list>
             </option>
           </splitter-proportions>
@@ -1258,16 +1604,19 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.github.dblock.waffle:waffle-jna:1.7</last-edited>
+          <last-edited>Maven: org.postgresql:postgresql:42.1.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.30645162" />
               </list>
             </option>
           </splitter-proportions>
         </settings>
       </state>
     </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
   </component>
 </project>

@@ -1,0 +1,8 @@
+0      2017-11-18 14:37:47,517 INFO            com.ss13.servlets.LoginServlet  - Starting registering user
+5      2017-11-18 14:37:47,522 INFO            com.ss13.servlets.LoginServlet  - Saving user Username to database
+41     2017-11-18 14:37:47,558 INFO            com.ss13.servlets.LoginServlet  - Saving failed
+0      2017-11-18 14:39:31,529 INFO            com.ss13.servlets.LoginServlet  - Starting registering user
+2      2017-11-18 14:39:31,531 INFO            com.ss13.servlets.LoginServlet  - Saving user Username to database
+470    2017-11-18 14:39:31,999 INFO            com.ss13.servlets.LoginServlet  - Saving failed
+0      2017-11-18 14:47:57,108 INFO            com.ss13.servlets.LoginServlet  - Starting registering user
+7      2017-11-18 14:47:57,115 INFO            com.ss13.servlets.LoginServlet  - Saving user User2 to database

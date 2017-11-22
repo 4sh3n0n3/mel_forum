@@ -11,8 +11,13 @@ public class User {
     private UserRoles role;
     private String passwordHash;
     private Profile profile;
+    private String email;
 
     static Logger log = Logger.getLogger(User.class);
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
     public void setId(int id) {
         this.id = id;
@@ -42,6 +47,10 @@ public class User {
         } else {
             this.passwordHash = password;
         }
+    }
+
+    public String getEmail() {
+        return email;
     }
 
     public UserRoles getRole() {

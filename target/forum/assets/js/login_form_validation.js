@@ -21,10 +21,3 @@ $("#login_form").validate({
         error.insertBefore(element);
     }
 });
-
-function try_submit(){
-    if ($("#login_form").valid) {
-        return true;
-    };
-    return false;
-}

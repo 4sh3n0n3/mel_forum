@@ -5,7 +5,7 @@
     <h2 class="head ps13-text-shadow">
             Регистрация на форуме
     </h2>
-    <form action="<c:url value="/send_register_form"/>" method="POST" id="registration_form" onSubmit="return  try_submit();">
+    <form action="<c:url value="/send_register_form"/>" method="POST" id="registration_form">
         <br>
             <input class="form-control mr-sm-2" type="text" id="reg_username" name="reg_username" placeholder="Введите желаемое имя пользователя" />
         </br>
