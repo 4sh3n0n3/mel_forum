@@ -14,7 +14,7 @@ import java.security.NoSuchAlgorithmException;
 import java.sql.SQLException;
 import java.util.UUID;
 
-@WebServlet("/try_login")
+@WebServlet("/login")
 public class LoginServlet extends HttpServlet{
     private static Logger log = Logger.getLogger(LoginServlet.class);
     private static UserDAO userDao = DAOFactory.getDAOFactory(1).getUserDAO();
@@ -81,7 +81,13 @@ public class LoginServlet extends HttpServlet{
             getServletContext().getRequestDispatcher("/login.jsp").forward(request, response);
             return;
         }
+        try {
+            newUser = DAOFactory.getDAOFactory(1).getUserDAO().read(username);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
         session.setAttribute("user", newUser);
-        getServletContext().getRequestDispatcher("/main.jsp").forward(request, response);
+
+        response.sendRedirect(request.getContextPath() + "/main.jsp");
     }
 }

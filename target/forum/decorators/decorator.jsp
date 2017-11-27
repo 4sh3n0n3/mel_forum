@@ -39,7 +39,7 @@
                               </form>
                             </div>
                                 <c:if test="${ not empty sessionScope.user }">
-                                    <form action="<c:url value="/profile"/>" method="GET">
+                                    <form action="<c:url value="/profile.jsp"/>" method="GET">
                                       <input class="btn btn-primary ps13-text-shadow ps13-button navbar-btn my-2 my-sm-0" type="submit" value="Profile"/>
                                     </form>
                                 </c:if>

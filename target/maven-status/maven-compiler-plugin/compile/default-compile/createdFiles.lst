@@ -4,7 +4,6 @@ com\ss13\dao\PostDAO.class
 com\ss13\dao\PostgresUserDAO$1.class
 com\ss13\dao\PostgresProfileDAO.class
 com\ss13\dao\UserDAO.class
-com\ss13\servlets\LoginRedirectServlet.class
 com\ss13\dao\PostgresRolesDAO.class
 com\ss13\dao\RolesDAO.class
 com\ss13\pojo\User.class
@@ -21,4 +20,3 @@ com\ss13\servlets\RegistrationServlet.class
 com\ss13\servlets\LoginServlet.class
 com\ss13\dao\PostgresDAOFactory.class
 com\ss13\dao\RewardsDAO.class
-com\ss13\servlets\RegisterRedirectServlet.class

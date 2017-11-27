@@ -5,7 +5,7 @@
     <h2 class="head ps13-text-shadow">
             Регистрация на форуме
     </h2>
-    <form action="<c:url value="/send_register_form"/>" method="POST" id="registration_form">
+    <form action="<c:url value="/register"/>" method="POST" id="registration_form">
         <c:if test="${not empty requestScope.error}">
             <br>
                 <c:out value="${requestScope.error}" />

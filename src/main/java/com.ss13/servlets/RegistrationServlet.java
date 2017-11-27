@@ -12,7 +12,7 @@ import java.security.NoSuchAlgorithmException;
 import java.sql.SQLException;
 import java.util.UUID;
 
-@WebServlet("/send_register_form")
+@WebServlet("/register")
 public class RegistrationServlet extends HttpServlet{
     private static Logger log = Logger.getLogger(LoginServlet.class);
     private static UserDAO userDao = DAOFactory.getDAOFactory(1).getUserDAO();
@@ -67,6 +67,11 @@ public class RegistrationServlet extends HttpServlet{
         try {
             userDao.create(newUser);
             newUser = userDao.read(username);
+            try {
+                newUser = DAOFactory.getDAOFactory(1).getUserDAO().read(username);
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
             session.setAttribute("user", newUser);
             request.setAttribute("error", null);
             log.info("User " + username + " saved");
@@ -102,6 +107,6 @@ public class RegistrationServlet extends HttpServlet{
             return;
         }
 
-        getServletContext().getRequestDispatcher("/main.jsp").forward(request, response);
+        response.sendRedirect(request.getContextPath() + "/main.jsp");
     }
 }

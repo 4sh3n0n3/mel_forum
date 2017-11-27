@@ -5,7 +5,7 @@
     <h2 class="head ps13-text-shadow">
             Вход на форум
     </h2>
-    <form action="<c:url value="/try_login"/>" method="POST" id="login_form">
+    <form action="<c:url value="/login"/>" method="POST" id="login_form">
     <c:if test="${ not empty requestScope.error }">
         <p class="lead text-danger">
             <c:out value="${requestScope.error}"/>
