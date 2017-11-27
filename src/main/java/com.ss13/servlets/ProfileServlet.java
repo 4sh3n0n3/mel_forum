@@ -21,6 +21,9 @@ public class ProfileServlet extends HttpServlet {
 
         if (targeted_username == null) {
             user = (User)session.getAttribute("user");
+            if (user == null) {
+                getServletContext().getRequestDispatcher("/login.jsp").forward(request, response);
+            }
         } else {
             try {
                 user = DAOFactory.getDAOFactory(1).getUserDAO().read(targeted_username);

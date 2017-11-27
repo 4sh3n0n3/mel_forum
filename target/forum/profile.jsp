@@ -10,7 +10,7 @@
 
             <div class="box box-info">
                 <div class="box-body">
-                <p style="color:#ffffff" id="isupdated"></p>
+                <p style="color:#000000" id="isupdated"></p>
 
                 <div class="flex-container">
                 <div class="first">
