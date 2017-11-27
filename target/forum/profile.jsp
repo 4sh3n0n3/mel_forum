@@ -10,6 +10,8 @@
 
             <div class="box box-info">
                 <div class="box-body">
+                <p style="color:#ffffff" id="isupdated"></p>
+
                 <div class="flex-container">
                 <div class="first">
                     <div>
@@ -39,19 +41,35 @@
                     <div class="clearfix"></div>
                         <hr style="margin:5px 0 5px 0;">
 
+                <form action="" method="post">
 
                     <div class="col-sm-5 col-xs-6 tital " >First Name:</div>
-                    <div class="col-sm-7 col-xs-6 "><c:out value="${requestScope.user.profile.firstName}"/></div>
-                         <div class="clearfix"></div>
+
+                    <c:if test="${ sessionScope.user == requestScope.user }">
+                        <input class="form-control col-sm-7 col-xs-6" type="text" id="firstname" name="firstname" value="<c:out value="${requestScope.user.profile.firstName}"/>"/>
+                    </c:if>
+                    <c:if test="${ sessionScope.user != requestScope.user }">
+                        <div class="col-sm-7 col-xs-6 "><c:out value="${requestScope.user.profile.firstName}"/></div>
+                    </c:if>
+
+                       <div class="clearfix"></div>
                     <div class="bot-border"></div>
 
                     <div class="col-sm-5 col-xs-6 tital " >Last Name:</div>
-                    <div class="col-sm-7"><c:out value="${requestScope.user.profile.lastName}"/></div>
+
+                    <c:if test="${ sessionScope.user == requestScope.user }">
+                        <input class="form-control col-sm-7 col-xs-6" type="text" id="lastname" name="lastname" value="<c:out value="${requestScope.user.profile.lastName}"/>"/>
+                    </c:if>
+                    <c:if test="${ sessionScope.user != requestScope.user }">
+                        <div class="col-sm-7 col-xs-6 "><c:out value="${requestScope.user.profile.lastName}"/></div>
+                    </c:if>
+
                       <div class="clearfix"></div>
                     <div class="bot-border"></div>
 
                     <div class="col-sm-5 col-xs-6 tital " >Date Of Joining:</div>
                     <div class="col-sm-7"><c:out value="${requestScope.user.profile.registrationDate}"/></div>
+
                       <div class="clearfix"></div>
                     <div class="bot-border"></div>
 
@@ -67,19 +85,56 @@
                         <div style="width: <c:out value="${requestScope.user.profile.rating}"/>%"></div>
                     </div>
             </div>
+            <c:if test="${ sessionScope.user == requestScope.user }">
+                  <input style="margin-left:auto; display: inherit;" class="btn btn-primary ps13-text-shadow ps13-button navbar-btn my-2 my-sm-0" type="button" value="Update Profile" onclick="updProfileAjax()"/>
+            </c:if>
+            </form>
         </div>
     </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.js"></script>
+
+        <script
+                 src="https://code.jquery.com/jquery-3.2.1.min.js"
+                 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+                 crossorigin="anonymous">
+         </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.1/jquery.validate.js"></script>x
+
 
     <script>
-              $(function() {
-    $('#profile-image1').on('click', function() {
-        $('#profile-image-upload').click();
-    });
-});
-              </script>
+          $(function() {
+              $('#profile-image1').on('click', function() {
+                  $('#profile-image-upload').click();
+              });
+          });
+    </script>
 
 
 </div>
+
+
+
+<script  type="application/javascript">
+    function updProfileAjax() {
+        var data_json = {
+            "firstname": document.getElementById("firstname").value,
+            "lastname": document.getElementById("lastname").value,
+        };
+        $.ajax({
+            type: "POST",
+            url: "upd_profile",
+            data: data_json,
+            dataType: 'json',
+            success: function(response) {
+                document.getElementById("firstname").value = response.firstname;
+                document.getElementById("lastname").value = response.lastname;
+                document.getElementById("isupdated").innerText = "Profile updated";
+            },
+            error: function(data) {
+                console.log(data);
+            }
+        });
+    };
+</script>

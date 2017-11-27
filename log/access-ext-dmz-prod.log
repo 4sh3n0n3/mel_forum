@@ -101,3 +101,103 @@
 37     2017-11-27 21:55:16,230 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
 276    2017-11-27 21:55:16,469 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
 277    2017-11-27 21:55:16,470 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 22:10:41,972 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+5      2017-11-27 22:10:41,977 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+29     2017-11-27 22:10:42,001 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+129    2017-11-27 22:10:42,101 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+132    2017-11-27 22:10:42,104 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 22:11:21,660 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+3      2017-11-27 22:11:21,663 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+31     2017-11-27 22:11:21,691 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+176    2017-11-27 22:11:21,836 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+178    2017-11-27 22:11:21,838 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 22:12:23,570 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+2      2017-11-27 22:12:23,572 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is false.
+28     2017-11-27 22:12:23,598 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+111    2017-11-27 22:12:23,681 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid is cleared from the db
+113    2017-11-27 22:12:23,683 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is removed i.e. set to 0 age in forwarded response
+0      2017-11-27 22:20:18,279 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+4      2017-11-27 22:20:18,283 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+32     2017-11-27 22:20:18,311 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+359    2017-11-27 22:20:18,638 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+361    2017-11-27 22:20:18,640 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 22:44:46,169 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+4      2017-11-27 22:44:46,173 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+34     2017-11-27 22:44:46,203 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+182    2017-11-27 22:44:46,351 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+184    2017-11-27 22:44:46,353 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 22:47:04,586 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+3      2017-11-27 22:47:04,589 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+29     2017-11-27 22:47:04,615 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+186    2017-11-27 22:47:04,772 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+187    2017-11-27 22:47:04,773 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 22:49:32,612 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+3      2017-11-27 22:49:32,615 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+27     2017-11-27 22:49:32,639 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+142    2017-11-27 22:49:32,754 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+144    2017-11-27 22:49:32,756 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 22:50:52,628 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+2      2017-11-27 22:50:52,630 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+28     2017-11-27 22:50:52,656 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+211    2017-11-27 22:50:52,839 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+212    2017-11-27 22:50:52,840 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 22:53:15,913 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+2      2017-11-27 22:53:15,915 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+27     2017-11-27 22:53:15,940 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+110    2017-11-27 22:53:16,023 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+111    2017-11-27 22:53:16,024 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 22:56:34,250 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+3      2017-11-27 22:56:34,253 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+28     2017-11-27 22:56:34,278 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+120    2017-11-27 22:56:34,370 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+122    2017-11-27 22:56:34,372 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 22:58:51,702 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+3      2017-11-27 22:58:51,705 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+27     2017-11-27 22:58:51,729 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+193    2017-11-27 22:58:51,895 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+195    2017-11-27 22:58:51,897 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 23:00:07,770 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+2      2017-11-27 23:00:07,772 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+27     2017-11-27 23:00:07,797 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+277    2017-11-27 23:00:08,047 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+278    2017-11-27 23:00:08,048 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 23:01:01,557 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+2      2017-11-27 23:01:01,559 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+28     2017-11-27 23:01:01,585 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+122    2017-11-27 23:01:01,679 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+124    2017-11-27 23:01:01,681 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+1      2017-11-27 23:02:42,717 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+3      2017-11-27 23:02:42,719 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+28     2017-11-27 23:02:42,744 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+126    2017-11-27 23:02:42,842 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+127    2017-11-27 23:02:42,843 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 23:04:00,592 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+2      2017-11-27 23:04:00,594 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is false.
+26     2017-11-27 23:04:00,618 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+199    2017-11-27 23:04:00,791 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid is cleared from the db
+200    2017-11-27 23:04:00,792 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is removed i.e. set to 0 age in forwarded response
+0      2017-11-27 23:06:22,341 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+2      2017-11-27 23:06:22,343 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+30     2017-11-27 23:06:22,371 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+232    2017-11-27 23:06:22,573 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+234    2017-11-27 23:06:22,575 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 23:07:51,181 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+4      2017-11-27 23:07:51,185 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+31     2017-11-27 23:07:51,212 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+117    2017-11-27 23:07:51,298 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+119    2017-11-27 23:07:51,300 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 23:12:12,903 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+2      2017-11-27 23:12:12,905 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+28     2017-11-27 23:12:12,931 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+297    2017-11-27 23:12:13,200 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+300    2017-11-27 23:12:13,203 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 23:14:21,876 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+2      2017-11-27 23:14:21,878 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+29     2017-11-27 23:14:21,905 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+311    2017-11-27 23:14:22,187 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+379    2017-11-27 23:14:22,255 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
+0      2017-11-27 23:15:14,302 INFO            com.ss13.servlets.LoginServlet  - User D0ct0r_Zl0 sent the password.
+2      2017-11-27 23:15:14,304 INFO            com.ss13.servlets.LoginServlet  - Remember me mode is true.
+31     2017-11-27 23:15:14,333 INFO            com.ss13.servlets.LoginServlet  - If user succeed with login for username D0ct0r_Zl0
+129    2017-11-27 23:15:14,431 INFO            com.ss13.servlets.LoginServlet  - For user  D0ct0r_Zl0 uuid is stored to db.
+130    2017-11-27 23:15:14,432 INFO            com.ss13.servlets.LoginServlet  - For user D0ct0r_Zl0 uuid cookie is added to the forwarded response.
