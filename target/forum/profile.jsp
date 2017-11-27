@@ -31,7 +31,7 @@
                         <!-- /input-group -->
                     </div>
                     <div>
-                        <h4 style="color:#00b1b1;"><c:out value="${sessionScope.user.username}"/></h4></span>
+                        <h4 style="color:#00b1b1;"><c:out value="${requestScope.user.username}"/></h4></span>
                         <span><p>There will be forum tag</p></span>
                     </div>
                 </div>
@@ -41,17 +41,17 @@
 
 
                     <div class="col-sm-5 col-xs-6 tital " >First Name:</div>
-                    <div class="col-sm-7 col-xs-6 "><c:out value="${sessionScope.user.profile.firstName}"/></div>
+                    <div class="col-sm-7 col-xs-6 "><c:out value="${requestScope.user.profile.firstName}"/></div>
                          <div class="clearfix"></div>
                     <div class="bot-border"></div>
 
                     <div class="col-sm-5 col-xs-6 tital " >Last Name:</div>
-                    <div class="col-sm-7"><c:out value="${sessionScope.user.profile.lastName}"/></div>
+                    <div class="col-sm-7"><c:out value="${requestScope.user.profile.lastName}"/></div>
                       <div class="clearfix"></div>
                     <div class="bot-border"></div>
 
                     <div class="col-sm-5 col-xs-6 tital " >Date Of Joining:</div>
-                    <div class="col-sm-7"><c:out value="${sessionScope.user.profile.registrationDate}"/></div>
+                    <div class="col-sm-7"><c:out value="${requestScope.user.profile.registrationDate}"/></div>
                       <div class="clearfix"></div>
                     <div class="bot-border"></div>
 
@@ -64,7 +64,7 @@
 
                     <h3 class="head ps13-text-shadow">User Rating</h3>
                     <div class="rating">
-                        <div style="width: <c:out value="${sessionScope.user.profile.rating}"/>%"></div>
+                        <div style="width: <c:out value="${requestScope.user.profile.rating}"/>%"></div>
                     </div>
             </div>
         </div>
