@@ -30,4 +30,12 @@
     <location>/error404.jsp</location>
   </error-page>
 
+  <login-config>
+    <auth-method>FORM</auth-method>
+    <form-login-config>
+      <form-login-page>/prelogin</form-login-page>
+      <form-error-page>/try_login.jsp</form-error-page>
+    </form-login-config>
+  </login-config>
+
 </web-app>

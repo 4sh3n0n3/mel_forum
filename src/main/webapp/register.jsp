@@ -6,6 +6,11 @@
             Регистрация на форуме
     </h2>
     <form action="<c:url value="/send_register_form"/>" method="POST" id="registration_form">
+        <c:if test="${not empty requestScope.error}">
+            <br>
+                <c:out value="${requestScope.error}" />
+            </br>
+        </c:if>
         <br>
             <input class="form-control mr-sm-2" type="text" id="reg_username" name="reg_username" placeholder="Введите желаемое имя пользователя" />
         </br>
@@ -18,6 +23,11 @@
         <br>
             <input class="form-control mr-sm-2" type="text" id="reg_email" name="reg_email" placeholder="Введите email" />
         </br>
+        <div class="checkbox">
+          <label>
+            <input name="remember_me" type="checkbox" value="on"> Remember me
+          </label>
+        </div>
         <input style="margin: auto; display: inherit;" type="submit" class="btn btn-primary ps13-text-shadow ps13-button navbar-btn my-2 my-sm-0" name="submit_reg_form" value="Зарегестрироваться" />
     </form>
 </div>

@@ -1,0 +1,10 @@
+0      2017-11-22 14:26:41,804 INFO            com.ss13.servlets.LoginServlet  - Starting registering user
+32     2017-11-22 14:26:41,836 INFO            com.ss13.servlets.LoginServlet  - Saving user Doctor_zlo to database
+0      2017-11-22 14:52:25,817 INFO            com.ss13.servlets.LoginServlet  - Starting registering user
+2      2017-11-22 14:52:25,819 INFO            com.ss13.servlets.LoginServlet  - Saving user user1 to database
+37427  2017-11-22 14:53:03,244 INFO            com.ss13.servlets.LoginServlet  - Starting registering user
+37428  2017-11-22 14:53:03,245 INFO            com.ss13.servlets.LoginServlet  - Saving user user1 to database
+37585  2017-11-22 14:53:03,402 INFO            com.ss13.servlets.LoginServlet  - Saving failed
+0      2017-11-22 14:54:42,415 INFO            com.ss13.servlets.LoginServlet  - Starting registering user
+6      2017-11-22 14:54:42,421 INFO            com.ss13.servlets.LoginServlet  - Saving user user1 to database
+79     2017-11-22 14:54:42,494 INFO            com.ss13.servlets.LoginServlet  - Saving failed

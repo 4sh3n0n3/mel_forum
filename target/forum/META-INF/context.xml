@@ -14,13 +14,22 @@
         validationQuery="SELECT 1">
     </Resource>
 
+    <Realm className="org.apache.catalina.realm.CombinedRealm">
+        <Realm className="org.apache.catalina.realm.JDBCRealm"
+               driverName="org.postgresql.Driver" digest="MD5"
+               connectionURL="jdbc:postgresql://localhost:5432/ps_13_forum_database"
+               connectionName="ps_13"
+               connectionPassword="wanrltw2003"
+               userTable="users" userNameCol="username" userCredCol="password"
+               userRoleTable="userroles" roleNameCol="role" />
 
-    <Realm className="org.apache.catalina.realm.JDBCRealm"
-           driverName="org.postgresql.Driver" digest="MD5"
-           connectionURL="jdbc:postgresql://localhost:5432/ps_13_forum_database"
-           connectionName="ps_13"
-           connectionPassword="wanrltw2003"
-           userTable="users" userNameCol="username" userCredCol="password"
-           userRoleTable="userroles" roleNameCol="role" />
+        <Realm className="org.apache.catalina.realm.JDBCRealm"
+               driverName="org.postgresql.Driver"
+               connectionURL="jdbc:postgresql://localhost:5432/ps_13_forum_database"
+               connectionName="ps_13"
+               connectionPassword="wanrltw2003"
+               userTable="users" userNameCol="wanrltw2003" userCredCol="uuid"
+               userRoleTable="userroles" roleNameCol="role" />
+    </Realm>
 
 </Context>

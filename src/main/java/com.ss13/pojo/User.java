@@ -6,14 +6,21 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class User {
+    public static final String EMPTY_UUID = "0";
+
     private int id;
     private String username;
     private UserRoles role;
     private String passwordHash;
     private Profile profile;
     private String email;
+    private String uuid;
 
     static Logger log = Logger.getLogger(User.class);
+
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
+    }
 
     public void setEmail(String email) {
         this.email = email;
@@ -47,6 +54,10 @@ public class User {
         } else {
             this.passwordHash = password;
         }
+    }
+
+    public String getUuid() {
+        return uuid;
     }
 
     public String getEmail() {

@@ -38,12 +38,19 @@
                                 <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
                               </form>
                             </div>
-                            <form action="<c:url value="/login"/>" method="GET">
-                              <input class="btn btn-primary ps13-text-shadow ps13-button navbar-btn my-2 my-sm-0" type="submit" value="Log in"/>
-                            </form>
-                            <form action="<c:url value="/register"/>" method="GET">
-                              <input class="btn btn-primary ps13-text-shadow ps13-button navbar-btn my-2 my-sm-0" type="submit" value="Register"/>
-                            </form>
+                                <c:if test="${ not empty sessionScope.user }">
+                                    <form action="<c:url value="/profile"/>" method="GET">
+                                      <input class="btn btn-primary ps13-text-shadow ps13-button navbar-btn my-2 my-sm-0" type="submit" value="Profile"/>
+                                    </form>
+                                </c:if>
+                                <c:if test="${ empty sessionScope.user }">
+                                    <form action="<c:url value="/login"/>" method="GET">
+                                      <input class="btn btn-primary ps13-text-shadow ps13-button navbar-btn my-2 my-sm-0" type="submit" value="Log in"/>
+                                    </form>
+                                    <form action="<c:url value="/register"/>" method="GET">
+                                      <input class="btn btn-primary ps13-text-shadow ps13-button navbar-btn my-2 my-sm-0" type="submit" value="Register"/>
+                                    </form>
+                                </c:if>
                         </div>
                     </div>
              </div>
